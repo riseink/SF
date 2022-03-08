@@ -212,6 +212,7 @@ li.ui-tabs-active a{
 
 #target_tabs.light_theme .ui-tabs .ui-tabs-panel{
     background: #ffffff;
+	  padding: 40px 10vw;
 }
 .ui-tabs .ui-tabs-nav li.ui-state-active a:after, .fake-tabs > ul li a:after, .fake-tabs > ul li a .number {
     background: #FFD100;
@@ -260,5 +261,14 @@ li.ui-tabs-active a{
 .gallery-item{
 	padding:2px
 }
+
+
+#target_tabs.light_theme .mcb-section .mcb-wrap .accordion .question .title{color:#000000;background:#ffffff;}
+
+#target_tabs.light_theme .mcb-section .mcb-wrap .accordion .question.active .title{color:#000000;background:#ffffff;}
+
+#target_tabs.light_theme .mcb-section .mcb-wrap .accordion .question.active .title i{color:#000000;}
+
+#target_tabs.light_theme .section_wrapper{align-content:center;}
 
 
